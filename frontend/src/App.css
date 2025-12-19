@@ -1,0 +1,96 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form input,
+form select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #1d4ed8;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+table thead {
+  background: #0f172a;
+  color: white;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background: #f1f5f9;
+}
+
+table tr:hover {
+  background: #e0e7ff;
+}
+
+/* ACTION BUTTONS */
+table button {
+  margin: 0 4px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+table button:first-child {
+  background: #16a34a;
+  color: white;
+}
+
+table button:last-child {
+  background: #dc2626;
+  color: white;
+}
+
+table button:hover {
+  opacity: 0.9;
+}
